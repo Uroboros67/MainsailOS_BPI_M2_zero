@@ -19,8 +19,8 @@
 
 - name: armbian-bananapi_m2_zero-bookworm
   type: armbian
-  img_download_url: "https://dl.armbian.com/bananapim2zero/Bookworm_current_minimal"
-  img_hash_url: "https://dl.armbian.com/bananapim2zero/Bookworm_current_minimal.sha"
+  img_download_url: "https://github.com/armbian/community/releases/download/25.8.0-trunk.277/Armbian_community_25.8.0-trunk.277_Bananapim2zero_bookworm_current_6.12.30_minimal.img.xz"
+  img_hash_url: "https://github.com/armbian/community/releases/download/25.8.0-trunk.277/Armbian_community_25.8.0-trunk.277_Bananapim2zero_bookworm_current_6.12.30_minimal.img.xz.sha"
   env:
     ARCH: arm64
     DISTRO: armbian
